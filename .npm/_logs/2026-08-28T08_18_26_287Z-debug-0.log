@@ -1,0 +1,281 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@12.0.2
+2 info using node@v26.4.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install surge
+7 verbose argv "install" "--global" "surge"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-08-28T08_18_26_287Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-08-28T08_18_26_287Z-debug-0.log
+10 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest surge@*
+14 silly packumentCache full:https://registry.npmjs.org/surge cache-miss
+15 http cache https://registry.npmjs.org/surge 108ms (cache hit)
+16 silly packumentCache full:https://registry.npmjs.org/surge set size:257037 disposed:false
+17 silly placeDep ROOT surge@0.44.0 OK for:  want: *
+18 silly fetch manifest chartscii@4.0.3
+19 silly packumentCache full:https://registry.npmjs.org/chartscii cache-miss
+20 silly fetch manifest cli-table3@0.6.5
+21 silly packumentCache full:https://registry.npmjs.org/cli-table3 cache-miss
+22 silly fetch manifest colors@1.4.0
+23 silly packumentCache full:https://registry.npmjs.org/colors cache-miss
+24 silly fetch manifest human-readable-numbers@0.9.5
+25 silly packumentCache full:https://registry.npmjs.org/human-readable-numbers cache-miss
+26 silly fetch manifest ignore@7.0.5
+27 silly packumentCache full:https://registry.npmjs.org/ignore cache-miss
+28 silly fetch manifest is-domain@0.0.1
+29 silly packumentCache full:https://registry.npmjs.org/is-domain cache-miss
+30 silly fetch manifest minimist@1.2.8
+31 silly packumentCache full:https://registry.npmjs.org/minimist cache-miss
+32 http cache https://registry.npmjs.org/colors 90ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/colors set size:55711 disposed:false
+34 silly fetch manifest moniker@0.1.2
+35 silly packumentCache full:https://registry.npmjs.org/moniker cache-miss
+36 http cache https://registry.npmjs.org/chartscii 112ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/chartscii set size:137439 disposed:false
+38 silly fetch manifest netrc@0.1.4
+39 silly packumentCache full:https://registry.npmjs.org/netrc cache-miss
+40 http cache https://registry.npmjs.org/minimist 113ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/minimist set size:77063 disposed:false
+42 silly fetch manifest progress@2.0.3
+43 silly packumentCache full:https://registry.npmjs.org/progress cache-miss
+44 http cache https://registry.npmjs.org/human-readable-numbers 134ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/human-readable-numbers set size:16375 disposed:false
+46 silly fetch manifest prompts@2.4.2
+47 silly packumentCache full:https://registry.npmjs.org/prompts cache-miss
+48 http cache https://registry.npmjs.org/ignore 140ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/ignore set size:240910 disposed:false
+50 silly fetch manifest read@1.0.5
+51 silly packumentCache full:https://registry.npmjs.org/read cache-miss
+52 http cache https://registry.npmjs.org/is-domain 157ms (cache hit)
+53 silly packumentCache full:https://registry.npmjs.org/is-domain set size:3006 disposed:false
+54 silly fetch manifest surge-ignore@0.3.0
+55 silly packumentCache full:https://registry.npmjs.org/surge-ignore cache-miss
+56 http cache https://registry.npmjs.org/cli-table3 176ms (cache hit)
+57 silly packumentCache full:https://registry.npmjs.org/cli-table3 set size:40139 disposed:false
+58 silly fetch manifest surge-sdk@0.20.0
+59 silly packumentCache full:https://registry.npmjs.org/surge-sdk cache-miss
+60 http cache https://registry.npmjs.org/netrc 106ms (cache hit)
+61 silly packumentCache full:https://registry.npmjs.org/netrc set size:7000 disposed:false
+62 silly fetch manifest surge-stream@0.20.0
+63 silly packumentCache full:https://registry.npmjs.org/surge-stream cache-miss
+64 http cache https://registry.npmjs.org/surge-sdk 67ms (cache hit)
+65 silly packumentCache full:https://registry.npmjs.org/surge-sdk set size:67771 disposed:false
+66 silly fetch manifest url-parse-as-address@1.0.0
+67 silly packumentCache full:https://registry.npmjs.org/url-parse-as-address cache-miss
+68 http cache https://registry.npmjs.org/progress 125ms (cache hit)
+69 silly packumentCache full:https://registry.npmjs.org/progress set size:34179 disposed:false
+70 silly fetch manifest xbytes@1.9.1
+71 silly packumentCache full:https://registry.npmjs.org/xbytes cache-miss
+72 http cache https://registry.npmjs.org/surge-ignore 98ms (cache hit)
+73 silly packumentCache full:https://registry.npmjs.org/surge-ignore set size:8055 disposed:false
+74 http cache https://registry.npmjs.org/moniker 172ms (cache hit)
+75 silly packumentCache full:https://registry.npmjs.org/moniker set size:1961 disposed:false
+76 http cache https://registry.npmjs.org/prompts 138ms (cache hit)
+77 silly packumentCache full:https://registry.npmjs.org/prompts set size:115896 disposed:false
+78 http cache https://registry.npmjs.org/read 125ms (cache hit)
+79 silly packumentCache full:https://registry.npmjs.org/read set size:44347 disposed:false
+80 http cache https://registry.npmjs.org/surge-stream 82ms (cache hit)
+81 silly packumentCache full:https://registry.npmjs.org/surge-stream set size:41880 disposed:false
+82 http cache https://registry.npmjs.org/url-parse-as-address 63ms (cache hit)
+83 silly packumentCache full:https://registry.npmjs.org/url-parse-as-address set size:3524 disposed:false
+84 http cache https://registry.npmjs.org/xbytes 55ms (cache hit)
+85 silly packumentCache full:https://registry.npmjs.org/xbytes set size:87034 disposed:false
+86 silly placeDep node_modules/surge chartscii@4.0.3 OK for: surge@0.44.0 want: 4.0.3
+87 silly placeDep node_modules/surge cli-table3@0.6.5 OK for: surge@0.44.0 want: 0.6.5
+88 silly placeDep node_modules/surge colors@1.4.0 OK for: surge@0.44.0 want: 1.4.0
+89 silly placeDep node_modules/surge human-readable-numbers@0.9.5 OK for: surge@0.44.0 want: 0.9.5
+90 silly placeDep node_modules/surge ignore@7.0.5 OK for: surge@0.44.0 want: 7.0.5
+91 silly placeDep node_modules/surge is-domain@0.0.1 OK for: surge@0.44.0 want: 0.0.1
+92 silly placeDep node_modules/surge minimist@1.2.8 OK for: surge@0.44.0 want: 1.2.8
+93 silly placeDep node_modules/surge moniker@0.1.2 OK for: surge@0.44.0 want: 0.1.2
+94 silly placeDep node_modules/surge netrc@0.1.4 OK for: surge@0.44.0 want: 0.1.4
+95 silly placeDep node_modules/surge progress@2.0.3 OK for: surge@0.44.0 want: 2.0.3
+96 silly placeDep node_modules/surge prompts@2.4.2 OK for: surge@0.44.0 want: 2.4.2
+97 silly placeDep node_modules/surge read@1.0.5 OK for: surge@0.44.0 want: 1.0.5
+98 silly placeDep node_modules/surge surge-ignore@0.3.0 OK for: surge@0.44.0 want: 0.3.0
+99 silly placeDep node_modules/surge surge-sdk@0.20.0 OK for: surge@0.44.0 want: 0.20.0
+100 silly placeDep node_modules/surge surge-stream@0.20.0 OK for: surge@0.44.0 want: 0.20.0
+101 silly placeDep node_modules/surge url-parse-as-address@1.0.0 OK for: surge@0.44.0 want: 1.0.0
+102 silly placeDep node_modules/surge xbytes@1.9.1 OK for: surge@0.44.0 want: 1.9.1
+103 silly fetch manifest styl3@3.1.1
+104 silly packumentCache full:https://registry.npmjs.org/styl3 cache-miss
+105 silly fetch manifest string-width@^4.2.0
+106 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+107 silly fetch manifest @colors/colors@1.5.0
+108 silly packumentCache full:https://registry.npmjs.org/@colors%2fcolors cache-miss
+109 silly fetch manifest kleur@^3.0.3
+110 silly packumentCache full:https://registry.npmjs.org/kleur cache-miss
+111 silly fetch manifest sisteransi@^1.0.5
+112 silly packumentCache full:https://registry.npmjs.org/sisteransi cache-miss
+113 silly fetch manifest mute-stream@~0.0.4
+114 silly packumentCache full:https://registry.npmjs.org/mute-stream cache-miss
+115 silly fetch manifest split@1.0.1
+116 silly packumentCache full:https://registry.npmjs.org/split cache-miss
+117 http cache https://registry.npmjs.org/styl3 49ms (cache hit)
+118 silly packumentCache full:https://registry.npmjs.org/styl3 set size:45337 disposed:false
+119 silly fetch manifest tar@7.5.22
+120 silly packumentCache full:https://registry.npmjs.org/tar cache-miss
+121 http cache https://registry.npmjs.org/string-width 59ms (cache hit)
+122 silly packumentCache full:https://registry.npmjs.org/string-width set size:72458 disposed:false
+123 http cache https://registry.npmjs.org/sisteransi 65ms (cache hit)
+124 silly packumentCache full:https://registry.npmjs.org/sisteransi set size:25723 disposed:false
+125 http cache https://registry.npmjs.org/@colors%2fcolors 74ms (cache hit)
+126 silly packumentCache full:https://registry.npmjs.org/@colors%2fcolors set size:12042 disposed:false
+127 http cache https://registry.npmjs.org/kleur 77ms (cache hit)
+128 silly packumentCache full:https://registry.npmjs.org/kleur set size:61853 disposed:false
+129 http cache https://registry.npmjs.org/split 79ms (cache hit)
+130 silly packumentCache full:https://registry.npmjs.org/split set size:29204 disposed:false
+131 http cache https://registry.npmjs.org/mute-stream 87ms (cache hit)
+132 silly packumentCache full:https://registry.npmjs.org/mute-stream set size:24413 disposed:false
+133 http cache https://registry.npmjs.org/tar 59ms (cache hit)
+134 silly packumentCache full:https://registry.npmjs.org/tar set size:591769 disposed:false
+135 silly placeDep node_modules/surge styl3@3.1.1 OK for: chartscii@4.0.3 want: 3.1.1
+136 silly placeDep node_modules/surge @colors/colors@1.5.0 OK for: cli-table3@0.6.5 want: 1.5.0
+137 silly placeDep node_modules/surge string-width@4.2.3 OK for: cli-table3@0.6.5 want: ^4.2.0
+138 silly fetch manifest strip-ansi@^6.0.1
+139 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+140 silly fetch manifest emoji-regex@^8.0.0
+141 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+142 silly fetch manifest is-fullwidth-code-point@^3.0.0
+143 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-miss
+144 http cache https://registry.npmjs.org/is-fullwidth-code-point 17ms (cache hit)
+145 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point set size:14578 disposed:false
+146 http cache https://registry.npmjs.org/emoji-regex 24ms (cache hit)
+147 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:89064 disposed:false
+148 http cache https://registry.npmjs.org/strip-ansi 36ms (cache hit)
+149 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:44998 disposed:false
+150 silly placeDep node_modules/surge kleur@3.0.3 OK for: prompts@2.4.2 want: ^3.0.3
+151 silly placeDep node_modules/surge sisteransi@1.0.5 OK for: prompts@2.4.2 want: ^1.0.5
+152 silly placeDep node_modules/surge mute-stream@0.0.8 OK for: read@1.0.5 want: ~0.0.4
+153 silly placeDep node_modules/surge emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+154 silly placeDep node_modules/surge is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+155 silly placeDep node_modules/surge strip-ansi@6.0.1 OK for: string-width@4.2.3 want: ^6.0.1
+156 silly fetch manifest ansi-regex@^5.0.1
+157 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+158 http cache https://registry.npmjs.org/ansi-regex 36ms (cache hit)
+159 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:48203 disposed:false
+160 silly placeDep node_modules/surge ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+161 silly placeDep node_modules/surge split@1.0.1 OK for: surge-stream@0.20.0 want: 1.0.1
+162 silly placeDep node_modules/surge tar@7.5.22 OK for: surge-stream@0.20.0 want: 7.5.22
+163 silly fetch manifest through@2
+164 silly packumentCache full:https://registry.npmjs.org/through cache-miss
+165 silly fetch manifest chownr@^3.0.0
+166 silly packumentCache full:https://registry.npmjs.org/chownr cache-miss
+167 silly fetch manifest yallist@^5.0.0
+168 silly packumentCache full:https://registry.npmjs.org/yallist cache-miss
+169 silly fetch manifest minipass@^7.1.2
+170 silly packumentCache full:https://registry.npmjs.org/minipass cache-miss
+171 silly fetch manifest minizlib@^3.1.0
+172 silly packumentCache full:https://registry.npmjs.org/minizlib cache-miss
+173 silly fetch manifest @isaacs/fs-minipass@^4.0.0
+174 silly packumentCache full:https://registry.npmjs.org/@isaacs%2ffs-minipass cache-miss
+175 http cache https://registry.npmjs.org/through 37ms (cache hit)
+176 silly packumentCache full:https://registry.npmjs.org/through set size:38387 disposed:false
+177 http cache https://registry.npmjs.org/chownr 42ms (cache hit)
+178 silly packumentCache full:https://registry.npmjs.org/chownr set size:22157 disposed:false
+179 http cache https://registry.npmjs.org/yallist 46ms (cache hit)
+180 silly packumentCache full:https://registry.npmjs.org/yallist set size:34610 disposed:false
+181 http cache https://registry.npmjs.org/@isaacs%2ffs-minipass 47ms (cache hit)
+182 silly packumentCache full:https://registry.npmjs.org/@isaacs%2ffs-minipass set size:7912 disposed:false
+183 http cache https://registry.npmjs.org/minizlib 53ms (cache hit)
+184 silly packumentCache full:https://registry.npmjs.org/minizlib set size:62862 disposed:false
+185 http cache https://registry.npmjs.org/minipass 63ms (cache hit)
+186 silly packumentCache full:https://registry.npmjs.org/minipass set size:276925 disposed:false
+187 silly placeDep node_modules/surge through@2.3.8 OK for: split@1.0.1 want: 2
+188 silly placeDep node_modules/surge @isaacs/fs-minipass@4.0.1 OK for: tar@7.5.22 want: ^4.0.0
+189 silly placeDep node_modules/surge chownr@3.0.0 OK for: tar@7.5.22 want: ^3.0.0
+190 silly placeDep node_modules/surge minipass@7.1.3 OK for: tar@7.5.22 want: ^7.1.2
+191 silly placeDep node_modules/surge minizlib@3.1.0 OK for: tar@7.5.22 want: ^3.1.0
+192 silly placeDep node_modules/surge yallist@5.0.0 OK for: tar@7.5.22 want: ^5.0.0
+193 silly fetch manifest minipass@^7.0.4
+194 silly packumentCache full:https://registry.npmjs.org/minipass cache-hit
+195 silly reify mark retired [
+195 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/surge',
+195 silly reify   '/data/data/com.termux/files/usr/bin/surge'
+195 silly reify ]
+196 silly reify moves {
+196 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/surge': '/data/data/com.termux/files/usr/lib/node_modules/.surge-yitjcjt9',
+196 silly reify   '/data/data/com.termux/files/usr/bin/surge': '/data/data/com.termux/files/usr/bin/.surge-0Eqc4vom'
+196 silly reify }
+197 http cache surge@https://registry.npmjs.org/surge/-/surge-0.44.0.tgz 1ms (cache hit)
+198 http cache @colors/colors@https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz 0ms (cache hit)
+199 http cache @isaacs/fs-minipass@https://registry.npmjs.org/@isaacs/fs-minipass/-/fs-minipass-4.0.1.tgz 0ms (cache hit)
+200 http cache url-parse-as-address@https://registry.npmjs.org/url-parse-as-address/-/url-parse-as-address-1.0.0.tgz 0ms (cache hit)
+201 http cache yallist@https://registry.npmjs.org/yallist/-/yallist-5.0.0.tgz 0ms (cache hit)
+202 http cache xbytes@https://registry.npmjs.org/xbytes/-/xbytes-1.9.1.tgz 0ms (cache hit)
+203 http cache through@https://registry.npmjs.org/through/-/through-2.3.8.tgz 0ms (cache hit)
+204 http cache tar@https://registry.npmjs.org/tar/-/tar-7.5.22.tgz 0ms (cache hit)
+205 http cache surge-stream@https://registry.npmjs.org/surge-stream/-/surge-stream-0.20.0.tgz 0ms (cache hit)
+206 http cache surge-sdk@https://registry.npmjs.org/surge-sdk/-/surge-sdk-0.20.0.tgz 0ms (cache hit)
+207 http cache surge-ignore@https://registry.npmjs.org/surge-ignore/-/surge-ignore-0.3.0.tgz 0ms (cache hit)
+208 http cache styl3@https://registry.npmjs.org/styl3/-/styl3-3.1.1.tgz 0ms (cache hit)
+209 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+210 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 0ms (cache hit)
+211 http cache split@https://registry.npmjs.org/split/-/split-1.0.1.tgz 0ms (cache hit)
+212 http cache sisteransi@https://registry.npmjs.org/sisteransi/-/sisteransi-1.0.5.tgz 0ms (cache hit)
+213 http cache read@https://registry.npmjs.org/read/-/read-1.0.5.tgz 0ms (cache hit)
+214 http cache prompts@https://registry.npmjs.org/prompts/-/prompts-2.4.2.tgz 1ms (cache hit)
+215 http cache progress@https://registry.npmjs.org/progress/-/progress-2.0.3.tgz 0ms (cache hit)
+216 http cache netrc@https://registry.npmjs.org/netrc/-/netrc-0.1.4.tgz 0ms (cache hit)
+217 http cache mute-stream@https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.8.tgz 0ms (cache hit)
+218 http cache moniker@https://registry.npmjs.org/moniker/-/moniker-0.1.2.tgz 0ms (cache hit)
+219 http cache minizlib@https://registry.npmjs.org/minizlib/-/minizlib-3.1.0.tgz 0ms (cache hit)
+220 http cache minipass@https://registry.npmjs.org/minipass/-/minipass-7.1.3.tgz 0ms (cache hit)
+221 http cache minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 0ms (cache hit)
+222 http cache is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 0ms (cache hit)
+223 http cache is-domain@https://registry.npmjs.org/is-domain/-/is-domain-0.0.1.tgz 0ms (cache hit)
+224 http cache ignore@https://registry.npmjs.org/ignore/-/ignore-7.0.5.tgz 0ms (cache hit)
+225 http cache human-readable-numbers@https://registry.npmjs.org/human-readable-numbers/-/human-readable-numbers-0.9.5.tgz 0ms (cache hit)
+226 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 0ms (cache hit)
+227 http cache cli-table3@https://registry.npmjs.org/cli-table3/-/cli-table3-0.6.5.tgz 0ms (cache hit)
+228 http cache colors@https://registry.npmjs.org/colors/-/colors-1.4.0.tgz 0ms (cache hit)
+229 http cache chownr@https://registry.npmjs.org/chownr/-/chownr-3.0.0.tgz 0ms (cache hit)
+230 http cache chartscii@https://registry.npmjs.org/chartscii/-/chartscii-4.0.3.tgz 0ms (cache hit)
+231 http cache kleur@https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz 0ms (cache hit)
+232 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+233 silly CHANGE node_modules/surge
+234 silly CHANGE node_modules/surge/node_modules/@colors/colors
+235 silly CHANGE node_modules/surge/node_modules/@isaacs/fs-minipass
+236 silly CHANGE node_modules/surge/node_modules/url-parse-as-address
+237 silly CHANGE node_modules/surge/node_modules/yallist
+238 silly CHANGE node_modules/surge/node_modules/xbytes
+239 silly CHANGE node_modules/surge/node_modules/through
+240 silly CHANGE node_modules/surge/node_modules/tar
+241 silly CHANGE node_modules/surge/node_modules/surge-stream
+242 silly CHANGE node_modules/surge/node_modules/surge-sdk
+243 silly CHANGE node_modules/surge/node_modules/surge-ignore
+244 silly CHANGE node_modules/surge/node_modules/styl3
+245 silly CHANGE node_modules/surge/node_modules/strip-ansi
+246 silly CHANGE node_modules/surge/node_modules/string-width
+247 silly CHANGE node_modules/surge/node_modules/split
+248 silly CHANGE node_modules/surge/node_modules/sisteransi
+249 silly CHANGE node_modules/surge/node_modules/read
+250 silly CHANGE node_modules/surge/node_modules/prompts
+251 silly CHANGE node_modules/surge/node_modules/progress
+252 silly CHANGE node_modules/surge/node_modules/netrc
+253 silly CHANGE node_modules/surge/node_modules/mute-stream
+254 silly CHANGE node_modules/surge/node_modules/moniker
+255 silly CHANGE node_modules/surge/node_modules/minizlib
+256 silly CHANGE node_modules/surge/node_modules/minipass
+257 silly CHANGE node_modules/surge/node_modules/minimist
+258 silly CHANGE node_modules/surge/node_modules/kleur
+259 silly CHANGE node_modules/surge/node_modules/is-fullwidth-code-point
+260 silly CHANGE node_modules/surge/node_modules/is-domain
+261 silly CHANGE node_modules/surge/node_modules/ignore
+262 silly CHANGE node_modules/surge/node_modules/human-readable-numbers
+263 silly CHANGE node_modules/surge/node_modules/emoji-regex
+264 silly CHANGE node_modules/surge/node_modules/cli-table3
+265 silly CHANGE node_modules/surge/node_modules/colors
+266 silly CHANGE node_modules/surge/node_modules/chownr
+267 silly CHANGE node_modules/surge/node_modules/chartscii
+268 silly CHANGE node_modules/surge/node_modules/ansi-regex
+269 verbose cwd /data/data/com.termux/files/home
+270 verbose os Linux 4.19.191-gf41c3bed52e9
+271 verbose node v26.4.0
+272 verbose npm  v12.0.2
+273 verbose exit 0
+274 info ok

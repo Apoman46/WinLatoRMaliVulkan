@@ -1,0 +1,46 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@12.0.2
+2 info using node@v26.4.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install npm@12.0.2
+7 verbose argv "install" "--global" "npm@12.0.2"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-08-28T08_18_11_111Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-08-28T08_18_11_111Z-debug-0.log
+10 silly logfile done cleaning log files
+11 http cache https://registry.npmjs.org/npm 137ms (cache hit)
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 silly idealTree buildDeps
+14 silly fetch manifest npm@12.0.2
+15 silly packumentCache full:https://registry.npmjs.org/npm cache-miss
+16 http cache https://registry.npmjs.org/npm 200ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/npm set size:25538261 disposed:false
+18 silly placeDep ROOT npm@12.0.2 OK for:  want: 12.0.2
+19 silly reify mark retired [
+19 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/npm',
+19 silly reify   '/data/data/com.termux/files/usr/bin/npm',
+19 silly reify   '/data/data/com.termux/files/usr/bin/npx'
+19 silly reify ]
+20 silly reify moves {
+20 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/npm': '/data/data/com.termux/files/usr/lib/node_modules/.npm-Ad3JtrjG',
+20 silly reify   '/data/data/com.termux/files/usr/bin/npm': '/data/data/com.termux/files/usr/bin/.npm-9oXEyzxI',
+20 silly reify   '/data/data/com.termux/files/usr/bin/npx': '/data/data/com.termux/files/usr/bin/.npx-vlNjOz4J'
+20 silly reify }
+21 http cache npm@https://registry.npmjs.org/npm/-/npm-12.0.2.tgz 0ms (cache hit)
+22 silly CHANGE node_modules/npm
+23 silly CHANGE node_modules/npm/node_modules/@npmcli/installed-package-contents
+24 silly CHANGE node_modules/npm/node_modules/@npmcli/arborist
+25 silly CHANGE node_modules/npm/node_modules/which
+26 silly CHANGE node_modules/npm/node_modules/semver
+27 silly CHANGE node_modules/npm/node_modules/qrcode-terminal
+28 silly CHANGE node_modules/npm/node_modules/pacote
+29 silly CHANGE node_modules/npm/node_modules/nopt
+30 silly CHANGE node_modules/npm/node_modules/node-gyp
+31 silly CHANGE node_modules/npm/node_modules/cssesc
+32 verbose cwd /data/data/com.termux/files/home
+33 verbose os Linux 4.19.191-gf41c3bed52e9
+34 verbose node v26.4.0
+35 verbose npm  v12.0.2
+36 verbose exit 0
+37 info ok
